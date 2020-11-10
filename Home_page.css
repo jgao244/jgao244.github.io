@@ -1,0 +1,239 @@
+   
+   /*header*/
+	#header1>img{
+		width: 100%;
+		height: 200px;
+		opacity: 30%;
+		
+	}
+	#header2{
+		background-color: coral;
+		height: 150px;
+		margin-top: -30px;
+		
+	}
+	#header2>p{
+		padding-top: 65px;
+		
+		font-size: 20px;
+	}
+	#header2>p>a{
+		text-decoration: none;
+		color: lightgray;
+	}
+	#header2>p>a:hover{
+		color: crimson;
+		font-family: italic;
+	}
+	#header2>h1{
+		text-align: center;
+		margin-top: -50px;
+		color: lightblue;
+		font-size: 50px;
+	}
+	
+	/*nav*/
+    nav{
+    	background-color: black;
+    	
+  		width: 25%;
+  		height: 500px; /* only for demonstration, should be removed */
+  		padding: 20px;
+  		margin-top: -5px;
+    }
+    nav>p{
+    	
+		display: inline-block;
+		margin-left: 95px;
+		margin-top: 230px;
+		font-family: "arial rounded mt bold";
+  		font-size: 50px;
+  		color: lightgrey;
+    }
+    nav>p:hover{
+    	font-style:italic;
+    	color: lightgreen;
+    }
+    
+    /*div*/
+    #div1{
+    	background-color: black;
+    	width: 75%;
+    	height: 520px;
+    	float: right;
+    	border-right:2px ;
+    	margin-top: -540px;
+    	margin-left: -10px;
+    }
+    #div1>ul>li{
+    	list-style: none;
+		display: inline-block;
+		width: 325px;
+		height: 500px;
+		
+		margin-right: 10px;
+		margin-top: -17px;
+		}
+    #div1>ul>li>a{
+    	text-decoration: none;
+		color: wheat;
+		
+    }
+    #div1>ul>li>a>img{
+    	width: 310px;
+		height: 450px;
+		opacity: 60%;
+    	
+    }#div1>ul>li>h1{
+    	color: plum;
+    	font: "arial, helvetica, sans-serif";
+    	text-align: center;
+    }
+    #div1>ul>li>a>img:hover{
+    	opacity: 100%;
+    }
+    
+    #div2{
+    	height: 400px;
+    	width: 100%;
+    	background-color: black;
+    }#div2>img{
+    	width: 40%;
+    	height:400px ;
+    }#div2>article{
+    	width: 60%;
+    	height:350px ;
+    	background-color: orangered;
+    	text-align:center;
+    	color: wheat;
+    	font-family: "book antiqua";
+    	font-size: 25px;
+    	padding-top: 50px;
+    	float: right;
+    	
+    }
+    
+    
+    #div3{
+    	height: 400px;
+    	width: 100%;
+    	background-color: black;
+    }#div3>img{
+    	width: 40%;
+    	height:400px;
+    	float: right;
+    }#div3>article{
+    	width: 60%;
+    	height:350px ;
+    	background-color: lightcoral;
+    	text-align:center;
+    	color: wheat;
+    	font-family: "book antiqua";
+    	font-size: 25px;
+    	float: left;
+    	padding-top: 50px;
+    }
+    
+    #div4{
+    	height: 400px;
+    	width: 100%;
+    	background-color: black;
+    }#div4>img{
+    	width: 40%;
+    	height:400px ;
+    }#div4>article{
+    	width: 60%;
+    	height:350px ;
+    	background-color: #ADD8E6;
+    	text-align:center;
+    	color:#FF7F50;
+    	font-family: "book antiqua";
+    	font-size: 25px;
+    	float: right;
+    	padding-top:50px;
+    	
+    }
+    #ul1{
+    	width: 100%;
+    	height:60%;
+    	margin-left: -40px;
+    	margin-top: -5px;
+    }
+    #ul1>li{
+    	list-style: none;
+    }
+    .divebridge{
+    	width: 100%;
+    	height: 350px;
+    	
+    }
+    #ul2{
+    	width: 100%;
+    	height:60%;
+    	margin-left: -40px;
+    	margin-top: -5px;
+    }
+     #ul2>li{
+    	list-style: none;
+    }
+    #articleculture1{
+    	float: right;
+		width: 60%;
+    	height: 350px;
+    	background-color: lightgreen;
+    	color: whitesmoke;
+    	font-size: 25px;
+    	text-align: center;
+    }
+    #articleculture2{
+    	float: right;
+		width: 60%;
+    	height: 290px;
+    	background-color: lightpink;
+    	color: whitesmoke;
+    	font-size: 25px;
+    	text-align: center;
+    	padding-top: 60px;
+    }
+    #articleculture3{
+    	float: right;
+		width: 60%;
+    	height: 290px;
+    	background-color: coral;
+    	color: whitesmoke;
+    	font-size: 25px;
+    	text-align: center;
+    	padding-top: 60px;
+    }
+    .imageculture{
+    	float: left;
+		width: 40%;
+    	height: 350px;
+    }
+    
+    
+    
+    .articleinbridge{
+    	color: white;
+		float: left;
+		width: 60%;
+    	height: 350px;
+    	background-color: black;
+    	font-size: 25px;
+    	text-align: center;
+    }
+    .imageinbridge{
+    	
+		float: right;
+		width: 40%;
+    	height: 350px;
+    	
+    }
+    /*footer*/
+    
+    footer{
+    	background-color: lightgray;
+    	height: 70px;
+    	margin-top: -20px;
+    }
+    
